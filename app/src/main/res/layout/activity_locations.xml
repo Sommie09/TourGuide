@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@drawable/palmtree"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="134dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginBottom="15dp"
+                    android:contentDescription="tropic4"
+                    android:paddingTop="32dp"
+                    android:paddingBottom="24dp"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/tropic5"
+                    />
+
+                <View
+                    android:id="@+id/view1"
+                    android:layout_width="208dp"
+                    android:layout_height="162dp"
+                    android:layout_gravity="bottom"
+                    android:alpha=".8"
+                    android:background="@drawable/bg_tab" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical"
+                    android:text="Palace of
+                                 Versailles"
+                    android:textColor="#ffffff"
+                    android:textSize="25dp"
+                    android:gravity="center|left">
+
+                </TextView>
+
+            </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/imageView3"
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginBottom="15dp"
+                        android:contentDescription="tropic3"
+                        android:paddingTop="15dp"
+                        android:paddingBottom="15dp"
+                        android:scaleType="centerCrop"
+                        app:srcCompat="@drawable/kingston" />
+
+                    <View
+                        android:id="@+id/view2"
+                        android:layout_width="208dp"
+                        android:layout_height="173dp"
+                        android:layout_gravity="bottom"
+                        android:alpha=".8"
+                        android:background="@drawable/bg_tab" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_vertical"
+                        android:text="The Nicoya Peninsula,
+                        Costa Rica"
+                        android:textColor="#ffffff"
+                        android:textSize="25dp"
+                        android:gravity="center|left"></TextView>
+                </FrameLayout>
+
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/imageView2"
+                            android:layout_width="match_parent"
+                            android:layout_height="150dp"
+                            android:layout_marginTop="15dp"
+                            android:layout_marginBottom="15dp"
+                            android:contentDescription="tropic2"
+                            android:paddingTop="15dp"
+                            android:paddingBottom="15dp"
+                            android:scaleType="centerCrop"
+                            app:srcCompat="@drawable/tropic4" />
+
+                        <View
+                            android:id="@+id/view3"
+                            android:layout_width="208dp"
+                            android:layout_height="172dp"
+                            android:layout_gravity="bottom"
+                            android:alpha=".8"
+                            android:background="@drawable/bg_tab" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center_vertical"
+                            android:text="Florida Keys"
+                            android:textColor="#ffffff"
+                            android:textSize="25dp"
+                            android:gravity="center|left"></TextView>
+
+                    </FrameLayout>
+
+                        <FrameLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <ImageView
+                                android:id="@+id/imageView"
+                                android:layout_width="match_parent"
+                                android:layout_height="150dp"
+                                android:layout_marginTop="15dp"
+                                android:layout_marginBottom="15dp"
+                                android:contentDescription="tropic1"
+                                android:paddingTop="15dp"
+                                android:paddingBottom="15dp"
+                                android:scaleType="centerCrop"
+                                app:srcCompat="@drawable/tropic1" />
+
+                            <View
+                                android:id="@+id/view4"
+                                android:layout_width="208dp"
+                                android:layout_height="173dp"
+                                android:layout_gravity="bottom"
+                                android:alpha=".8"
+                                android:background="@drawable/bg_tab" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center_vertical"
+                                android:text="The Andaman Coast,
+                                Thailand"
+                                android:textColor="#ffffff"
+                                android:textSize="25dp"
+                                android:gravity="center|left"></TextView>
+
+                        </FrameLayout>
+
+                            <FrameLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <ImageView
+                                    android:id="@+id/imageView5"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="150dp"
+                                    android:layout_marginTop="15dp"
+                                    android:layout_marginBottom="15dp"
+                                    android:contentDescription="tropic6"
+                                    android:paddingTop="15dp"
+                                    android:paddingBottom="15dp"
+                                    android:scaleType="centerCrop"
+                                    app:srcCompat="@drawable/tropic6" />
+
+                                <View
+                                    android:id="@+id/view5"
+                                    android:layout_width="208dp"
+                                    android:layout_height="172dp"
+                                    android:layout_gravity="bottom"
+                                    android:alpha=".8"
+                                    android:background="@drawable/bg_tab" />
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_gravity="center_vertical"
+                                    android:text="Bali, Indonesia"
+                                    android:textColor="#ffffff"
+                                    android:textSize="25dp"
+                                    android:gravity="center|left"></TextView>
+
+
+
+                            </FrameLayout>
+
+                                <FrameLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent">
+
+                                    <ImageView
+                                        android:id="@+id/imageView6"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="150dp"
+                                        android:layout_marginTop="15dp"
+                                        android:layout_marginBottom="15dp"
+                                        android:contentDescription="tropic7"
+                                        android:paddingTop="15dp"
+                                        android:paddingBottom="15dp"
+                                        android:scaleType="centerCrop"
+                                        app:srcCompat="@drawable/tropic7" />
+
+                                    <View
+                                        android:id="@+id/view6"
+                                        android:layout_width="208dp"
+                                        android:layout_height="172dp"
+                                        android:layout_gravity="bottom"
+                                        android:alpha=".8"
+                                        android:background="@drawable/bg_tab" />
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:layout_gravity="center_vertical"
+                                        android:text="Dominican Republic"
+                                        android:textColor="#ffffff"
+                                        android:textSize="25dp"
+                                        android:gravity="center|left"></TextView>
+
+                                </FrameLayout>
+
+                                    <FrameLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent">
+
+                                        <ImageView
+                                            android:id="@+id/imageView7"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="150dp"
+                                            android:layout_marginTop="15dp"
+                                            android:contentDescription="tropic8"
+                                            android:paddingTop="15dp"
+                                            android:scaleType="centerCrop"
+                                            app:srcCompat="@drawable/bora" />
+
+                                        <View
+                                            android:id="@+id/view7"
+                                            android:layout_width="208dp"
+                                            android:layout_height="157dp"
+                                            android:layout_gravity="bottom"
+                                            android:alpha=".8"
+                                            android:background="@drawable/bg_tab" />
+
+                                        <TextView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:layout_gravity="center_vertical"
+                                            android:text="Ambergris Caye,
+                                            Belize"
+                                            android:textColor="#ffffff"
+                                            android:textSize="25dp"
+                                            android:gravity="center|left"></TextView>
+
+                                    </FrameLayout>
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

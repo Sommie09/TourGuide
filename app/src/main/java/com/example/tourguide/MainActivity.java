@@ -2,6 +2,7 @@ package com.example.tourguide;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.ActivityOptions;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -18,7 +19,9 @@ public class MainActivity extends AppCompatActivity {
 
     public void buttonClicked(View view) {
         Intent locations = new Intent(this, Locations.class);
-        startActivity(locations);
+        ActivityOptions options = ActivityOptions.makeSceneTransitionAnimation(this);
+
+        startActivity(locations, options.toBundle());
     }
 }
 
